@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML, CSS & Git Basics (CV) </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="StyleSheet.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+    <header>
+        <h1>Curriculum vitae</h1>
+    </header>
+
+    <main>
+
+        <div class="start">
+
+            <aside class="myself">
+                <h2>Bulynko Sergey</h2>
+                <br>
+                <h3>Contacts:</h3>
+                <ul>
+                    <li><p>Phone number: +375299274456</p></li>
+                    <li><p>E-mail: bulynko.sergey.y@gmail.com</p></li>
+                </ul>
+            </aside>
+            <img class="pic" src="media/3.jpg" alt="avatar">
+        </div>
+
+        <div class="bio">
+            <section>
+                <h3>About myself:</h3>
+                <p>
+                    Responsible, diligent, ready for difficulties person
+                    who wants to find a good job. I strive to gain experience
+                    and new knowledge. I hope to become a programmer
+                    in the future, but for now I will do my best for this.
+                </p>
+            </section>
+        </div>
+
+        <div class="skills">
+            <section>
+                <h3>Programming skills:</h3>
+                <ul>
+                    <li>C++</li>
+                    <li>JS</li>
+                    <li>Java</li>
+                    <li>Github control system</li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="edu">
+            <section>
+                <h3>Education:</h3>
+                <p>
+                    Graduated from high school № 27 of the city of Bobruisk.
+                    Now I study at the Belarusian State University at the
+                    Faculty of Radiophysics and Computer Technologies.
+                </p>
+            </section>
+            <br>
+            <section>
+                <h3>Experience:</h3>
+                <p>Empty at the moment.</p><br>
+                <h3>English:</h3>
+                <p>Intermediate.</p>
+            </section>
+        </div>
+
+
+        <div class="code">
+            <h3>Code example:</h3>
+            <pre><code>
+        function fizzbuzz(n)
+        {
+            let arr = [];
+            let i = 1
+            for (let k = 0; k < n; k++)
+            {
+
+                if (i % 3 == 0 && i % 5 == 0)
+                    arr[k] = 'FizzBuzz';
+                else
+                    if (i % 3 == 0)
+                    arr[k] = 'Fizz';
+                else
+                    if (i % 5 == 0)
+                    arr[k] = 'Buzz';
+                else
+                    arr[k] = i;
+                i++;
+            }
+            return arr;
+        }
+            </code></pre>
+        </div>
+    </main>
+
+    <footer>
+        <p>Author: Bulynko Sergey</p>
+    </footer>
+
+</body>
+
+</html>
